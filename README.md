@@ -1,17 +1,17 @@
-# npm-package-demo
+# diw
 
 A demo package built with TypeScript.
 
 ## Installation
 
 ```bash
-npm install npm-package-demo
+npm install diw
 ```
 
 or
 
 ```bash
-yarn add npm-package-demo
+yarn add diw
 ```
 
 ## Scripts
@@ -33,7 +33,7 @@ yarn add npm-package-demo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/letanure/npm-package-demo.git
+   git clone https://github.com/letanure/diw.git
    ```
 2. Install dependencies:
    ```bash

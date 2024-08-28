@@ -1,4 +1,4 @@
-# npm-package-demo
+# diw
 
 ## 1.0.1
 

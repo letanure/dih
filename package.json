@@ -1,16 +1,16 @@
 {
-	"name": "@letanure/npm-package-demo",
+	"name": "diw",
 	"version": "1.0.1",
 	"description": "A demo package ",
 	"keywords": ["demo", "typescript"],
-	"homepage": "https://github.com/letanure/npm-package-demo",
+	"homepage": "https://github.com/letanure/diw",
 	"bugs": {
-		"url": "https://github.com/letanure/npm-package-demo/issues"
+		"url": "https://github.com/letanure/diw/issues"
 	},
 	"author": "Luiz Tanure",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/letanure/npm-package-demo.git"
+		"url": "git+https://github.com/letanure/diw.git"
 	},
 	"license": "MIT",
 	"type": "module",
