@@ -2,10 +2,7 @@
 	"name": "tt-package-demo",
 	"version": "1.0.1",
 	"description": "A demo package ",
-	"keywords": [
-		"demo",
-		"typescript"
-	],
+	"keywords": ["demo", "typescript"],
 	"homepage": "https://github.com/letanure/tt-package-demo",
 	"bugs": {
 		"url": "https://github.com/letanure/tt-package-demo/issues"
@@ -17,9 +14,7 @@
 	},
 	"license": "MIT",
 	"type": "module",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
