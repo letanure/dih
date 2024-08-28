@@ -1,5 +1,5 @@
 {
-	"name": "npm-package-demo",
+	"name": "@letanure/npm-package-demo",
 	"version": "1.0.1",
 	"description": "A demo package ",
 	"keywords": ["demo", "typescript"],
