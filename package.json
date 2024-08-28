@@ -1,6 +1,6 @@
 {
 	"name": "tt-package-demo",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A demo package ",
 	"keywords": [
 		"demo",
@@ -23,14 +23,15 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
-		"ci": "npm run build && npm run lint:check && npm run lint:exports && npm run lint:ts && npm run test:run",
-		"lint:ts": "tsc",
+		"ci": "pnpm run build && pnpm run lint:check && pnpm run lint:exports && pnpm run lint:ts && pnpm run test:run",
 		"lint:check": "biome check",
 		"lint:exports": "attw --pack .",
 		"lint:fix": "biome format --write .",
+		"lint:ts": "tsc",
+		"release:local": "changeset version && changeset publish",
 		"test:run": "vitest run",
 		"test:watch": "vitest",
-		"release:local": "changeset version && changeset publish"
+		"prepublishOnly": "pnpm run ci"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.4",
