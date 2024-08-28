@@ -26,9 +26,9 @@
 		"lint:ts": "tsc --noEmit",
 		"prepublishOnly": "npm run ci",
 		"release:local": "changeset version && changeset publish",
-		"test:all": "npm run test:run",
-		"test:run": "vitest run",
-		"test:watch": "vitest"
+		"test:all": "npm run test:unit:run",
+		"test:unit:run": "vitest run",
+		"test:unit:watch": "vitest"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.4",
