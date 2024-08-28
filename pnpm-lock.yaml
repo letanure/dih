@@ -31,7 +31,7 @@ packages:
     engines: {node: '>=6.0.0'}
 
   '@andrewbranch/untar.js@1.0.3':
-    resolution: {integrity: sha512-Jh15/qVmrLGhkKJBdXlK1+9tY4lZruYjsgkDFj08ZmDiWVBLJcqkok7Z0/R0In+i1rScBpJlSvrTS2Lm41Pbnw==, tarball: https://registry.npmjs.org/@andrewbranch/untar.js/-/untar.js-1.0.3.tgz}
+    resolution: {integrity: sha512-Jh15/qVmrLGhkKJBdXlK1+9tY4lZruYjsgkDFj08ZmdihVBLJcqkok7Z0/R0In+i1rScBpJlSvrTS2Lm41Pbnw==, tarball: https://registry.npmjs.org/@andrewbranch/untar.js/-/untar.js-1.0.3.tgz}
 
   '@arethetypeswrong/cli@0.15.4':
     resolution: {integrity: sha512-YDbImAi1MGkouT7f2yAECpUMFhhA1J0EaXzIqoC5GGtK0xDgauLtcsZezm8tNq7d3wOFXH7OnY+IORYcG212rw==, tarball: https://registry.npmjs.org/@arethetypeswrong/cli/-/cli-0.15.4.tgz}
@@ -510,7 +510,7 @@ packages:
     engines: {node: '>=10'}
 
   chardet@0.7.0:
-    resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==, tarball: https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz}
+    resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdihDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==, tarball: https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz}
 
   check-error@2.1.1:
     resolution: {integrity: sha512-OAlb+T7V4Op9OwdkjmguYRqncdlx5JiofwOAUkmTF+jNdHwzTaTs4sRAGpzLF3oOz5xAyDGrPgeIDFQmDOTiJw==, tarball: https://registry.npmjs.org/check-error/-/check-error-2.1.1.tgz}

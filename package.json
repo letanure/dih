@@ -1,16 +1,16 @@
 {
-	"name": "diw",
+	"name": "dih",
 	"version": "1.0.1",
 	"description": "A demo package ",
 	"keywords": ["demo", "typescript"],
-	"homepage": "https://github.com/letanure/diw",
+	"homepage": "https://github.com/letanure/dih",
 	"bugs": {
-		"url": "https://github.com/letanure/diw/issues"
+		"url": "https://github.com/letanure/dih/issues"
 	},
 	"author": "Luiz Tanure",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/letanure/diw.git"
+		"url": "git+https://github.com/letanure/dih.git"
 	},
 	"license": "MIT",
 	"type": "module",

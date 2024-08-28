@@ -1,17 +1,17 @@
-# diw
+# dih
 
 A demo package built with TypeScript.
 
 ## Installation
 
 ```bash
-npm install diw
+npm install dih
 ```
 
 or
 
 ```bash
-yarn add diw
+yarn add dih
 ```
 
 ## Scripts
@@ -33,7 +33,7 @@ yarn add diw
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/letanure/diw.git
+   git clone https://github.com/letanure/dih.git
    ```
 2. Install dependencies:
    ```bash
