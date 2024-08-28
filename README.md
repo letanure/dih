@@ -26,8 +26,8 @@ yarn add npm-package-demo
 - `prepublishOnly`: Run CI checks before publishing
 - `release:local`: Version and publish changes locally
 - `test:all`: Run all tests
-- `test:run`: Run tests using Vitest
-- `test:watch`: Run tests in watch mode
+- `test:unit:run`: Run tests using Vitest
+- `test:unit:watch`: Run tests in watch mode
 
 ## Development
 
