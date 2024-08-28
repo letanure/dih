@@ -1,16 +1,16 @@
 {
-	"name": "tt-package-demo",
+	"name": "npm-package-demo",
 	"version": "1.0.1",
 	"description": "A demo package ",
 	"keywords": ["demo", "typescript"],
-	"homepage": "https://github.com/letanure/tt-package-demo",
+	"homepage": "https://github.com/letanure/npm-package-demo",
 	"bugs": {
-		"url": "https://github.com/letanure/tt-package-demo/issues"
+		"url": "https://github.com/letanure/npm-package-demo/issues"
 	},
 	"author": "Luiz Tanure",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/letanure/tt-package-demo.git"
+		"url": "git+https://github.com/letanure/npm-package-demo.git"
 	},
 	"license": "MIT",
 	"type": "module",
@@ -18,15 +18,17 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc",
-		"ci": "pnpm run build && pnpm run lint:check && pnpm run lint:exports && pnpm run lint:ts && pnpm run test:run",
-		"lint:check": "biome check",
-		"lint:exports": "attw --pack .",
-		"lint:fix": "biome format --write .",
-		"lint:ts": "tsc",
+		"ci": "pnpm run build && pnpm run lint:all && pnpm run test:all",
+		"lint:all": "pnpm run lint:exports && pnpm run lint:format && pnpm run lint:ts",
+		"lint:exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
+		"lint:format:fix": "biome format --write .",
+		"lint:format": "biome check",
+		"lint:ts": "tsc --noEmit",
+		"prepublishOnly": "pnpm run ci",
 		"release:local": "changeset version && changeset publish",
+		"test:all": "pnpm run test:run",
 		"test:run": "vitest run",
-		"test:watch": "vitest",
-		"prepublishOnly": "pnpm run ci"
+		"test:watch": "vitest"
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.4",

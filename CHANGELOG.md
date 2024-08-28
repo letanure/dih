@@ -1,4 +1,4 @@
-# tt-package-demo
+# npm-package-demo
 
 ## 1.0.1
 
